@@ -20,8 +20,8 @@ public class Manage {
             System.out.println(strings[i]);
             i++;
         }
-        String joinString = String.join("", strings);
-        System.out.println(joinString);
+        string = String.join("", strings);
+        System.out.println(string);
     }
 
     public static void reverseANumberArray() {
